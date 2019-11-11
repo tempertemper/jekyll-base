@@ -4,7 +4,7 @@
   "description": "This is the starting point for Jekyll projects",
   "main": "index.js",
   "scripts": {
-    "serve": "bundle exec jekyll clean && bundle exec jekyll serve --watch --incremental",
+    "serve": "bundle exec jekyll clean && bundle exec jekyll serve --port 3000 --watch --incremental",
     "build": "bundle exec jekyll clean && bundle exec jekyll build",
     "staging": "npm run build && echo 'User-agent: *\nDisallow: /' > dist/robots.txt",
     "start": "npm run serve"

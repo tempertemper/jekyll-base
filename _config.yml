@@ -1,0 +1,14 @@
+# Jekyll config
+
+source: ./src
+destination: ./dist
+version: 1.0.0
+sass:
+  sass_dir: assets/css
+  style: compressed
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
